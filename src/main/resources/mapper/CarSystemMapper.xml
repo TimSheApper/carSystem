@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.car.api.dao.CarSystemMapper">
+
+    <update id="saveVehicleEntryInfo" parameterType="com.car.api.entity.Info">
+        UPDATE WM_GATE_ARRAY SET INCHANNEL = #{inChannel,jdbcType=VARCHAR},INTIME = TO_DATE(#{inTime,jdbcType=VARCHAR},'YYYY-MM-DD HH24:MI:SS') WHERE CARDNO = #{cardNo,jdbcType=VARCHAR} AND CAR_NO = #{plateNo,jdbcType=VARCHAR}
+    </update>
+
+    <update id="saveVehicleExitInfo" parameterType="com.car.api.entity.Info">
+        UPDATE WM_GATE_ARRAY SET OUTCHANNEL = #{outChannel,jdbcType=VARCHAR},OUTTIME = TO_DATE(#{outTime,jdbcType=VARCHAR},'YYYY-MM-DD HH24:MI:SS') WHERE CARDNO = #{cardNo,jdbcType=VARCHAR} AND CAR_NO = #{plateNo,jdbcType=VARCHAR}
+    </update>
+
+</mapper>

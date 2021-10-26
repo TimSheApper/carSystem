@@ -1,0 +1,310 @@
+2021-10-24 08:34:09,534  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 13516 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 08:34:09,580  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 08:34:11,944  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 08:34:12,065  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 2253 ms
+2021-10-24 08:34:12,815  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 08:34:13,003  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 08:34:13,259  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 08:34:13,269  INFO ApiApplication:61 - Started ApiApplication in 4.585 seconds (JVM running for 8.291)
+2021-10-24 08:34:28,709  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 08:34:28,711  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 08:35:50,138  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 08:36:22,633  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 16296 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 08:36:22,640  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 08:36:23,830  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 08:36:23,939  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1241 ms
+2021-10-24 08:36:24,386  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 08:36:24,508  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 08:36:24,612  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 08:36:24,694  INFO ApiApplication:61 - Started ApiApplication in 2.493 seconds (JVM running for 3.533)
+2021-10-24 08:41:03,464  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 08:41:03,465  INFO DispatcherServlet:547 - Completed initialization in 0 ms
+2021-10-24 08:41:03,943  WARN DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<com.car.api.entity.Info>` from Object value (token `JsonToken.START_OBJECT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.ArrayList<com.car.api.entity.Info>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (PushbackInputStream); line: 4, column: 13] (through reference chain: com.car.api.entity.CarBean["info"])]
+2021-10-24 08:41:33,764  WARN DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<com.car.api.entity.Info>` from Object value (token `JsonToken.START_OBJECT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.ArrayList<com.car.api.entity.Info>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (PushbackInputStream); line: 4, column: 13] (through reference chain: com.car.api.entity.CarBean["info"])]
+2021-10-24 08:41:39,588  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 08:45:02,012  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 13484 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 08:45:02,015  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 08:45:03,468  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 08:45:03,616  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1534 ms
+2021-10-24 08:45:04,270  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 08:45:04,434  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 08:45:04,565  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 08:45:04,667  INFO ApiApplication:61 - Started ApiApplication in 3.139 seconds (JVM running for 4.198)
+2021-10-24 08:45:09,590  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 08:45:09,591  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 08:45:09,708  WARN DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.String` from Object value (token `JsonToken.START_OBJECT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.String` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (PushbackInputStream); line: 4, column: 13] (through reference chain: com.car.api.entity.CarBean["info"])]
+2021-10-24 08:45:38,940  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 08:45:44,756  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 16492 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 08:45:44,759  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 08:45:46,092  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 08:45:46,237  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1424 ms
+2021-10-24 08:45:46,906  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 08:45:47,077  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 08:45:47,217  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 08:45:47,345  INFO ApiApplication:61 - Started ApiApplication in 3.052 seconds (JVM running for 4.137)
+2021-10-24 08:45:52,080  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 08:45:52,082  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 08:47:32,671  WARN DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.car.api.entity.Info` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.car.api.entity.Info` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (PushbackInputStream); line: 4, column: 13] (through reference chain: com.car.api.entity.CarBean["info"])]
+2021-10-24 08:47:54,486  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 08:48:00,347  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 88 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 08:48:00,350  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 08:48:01,660  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 08:48:01,802  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1390 ms
+2021-10-24 08:48:02,443  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 08:48:02,610  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 08:48:02,760  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 08:48:02,883  INFO ApiApplication:61 - Started ApiApplication in 2.993 seconds (JVM running for 4.061)
+2021-10-24 08:48:06,713  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 08:48:06,714  INFO DispatcherServlet:547 - Completed initialization in 0 ms
+2021-10-24 09:11:10,581  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 09:11:17,347  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 11508 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 09:11:17,352  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 09:11:18,700  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 09:11:18,921  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1513 ms
+2021-10-24 09:11:19,877  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 09:11:20,066  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 09:11:20,220  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 09:11:20,346  INFO ApiApplication:61 - Started ApiApplication in 3.518 seconds (JVM running for 4.636)
+2021-10-24 09:11:32,045  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 09:11:32,045  INFO DispatcherServlet:547 - Completed initialization in 0 ms
+2021-10-24 09:28:37,629  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 10:36:13,102  INFO SpringBootTestContextBootstrapper:305 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.car.api.ApiApplicationTests], using SpringBootContextLoader
+2021-10-24 10:36:13,110  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.car.api.ApiApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-10-24 10:36:13,111  INFO AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.car.api.ApiApplicationTests]: ApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-10-24 10:36:13,242  INFO SpringBootTestContextBootstrapper:238 - Found @SpringBootConfiguration com.car.api.ApiApplication for test class com.car.api.ApiApplicationTests
+2021-10-24 10:36:13,368  INFO SpringBootTestContextBootstrapper:245 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-10-24 10:36:13,388  INFO SpringBootTestContextBootstrapper:174 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6574a52c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6c1a5b54, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1c7696c6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@60099951, org.springframework.test.context.support.DirtiesContextTestExecutionListener@20140db9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e6a3214, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@368247b9, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a6d8329, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@55a147cc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@71ba6d4e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@738dc9b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3c77d488, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@63376bed]
+2021-10-24 10:36:13,654  INFO ApiApplicationTests:55 - Starting ApiApplicationTests using Java 1.8.0_271 on SD-20191015WCAA with PID 9176 (started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 10:36:13,657  INFO ApiApplicationTests:660 - No active profile set, falling back to default profiles: default
+2021-10-24 10:36:15,988  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 10:36:16,342  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 10:36:16,570  INFO ApiApplicationTests:61 - Started ApiApplicationTests in 3.129 seconds (JVM running for 4.379)
+2021-10-24 10:36:17,254  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 10:41:21,915  INFO SpringBootTestContextBootstrapper:305 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.car.api.ApiApplicationTests], using SpringBootContextLoader
+2021-10-24 10:41:21,923  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.car.api.ApiApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-10-24 10:41:21,924  INFO AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.car.api.ApiApplicationTests]: ApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-10-24 10:41:22,105  INFO SpringBootTestContextBootstrapper:238 - Found @SpringBootConfiguration com.car.api.ApiApplication for test class com.car.api.ApiApplicationTests
+2021-10-24 10:41:22,252  INFO SpringBootTestContextBootstrapper:245 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-10-24 10:41:22,269  INFO SpringBootTestContextBootstrapper:174 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6574a52c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6c1a5b54, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1c7696c6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@60099951, org.springframework.test.context.support.DirtiesContextTestExecutionListener@20140db9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e6a3214, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@368247b9, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a6d8329, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@55a147cc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@71ba6d4e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@738dc9b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3c77d488, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@63376bed]
+2021-10-24 10:41:22,567  INFO ApiApplicationTests:55 - Starting ApiApplicationTests using Java 1.8.0_271 on SD-20191015WCAA with PID 19384 (started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 10:41:22,570  INFO ApiApplicationTests:660 - No active profile set, falling back to default profiles: default
+2021-10-24 10:41:24,513  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 10:41:24,798  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 10:41:25,009  INFO ApiApplicationTests:61 - Started ApiApplicationTests in 2.692 seconds (JVM running for 4.014)
+2021-10-24 10:41:25,572  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:29:24,258  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 5876 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 15:29:24,260  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 15:29:25,339  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 15:29:25,451  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1139 ms
+2021-10-24 15:29:25,897  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:29:26,024  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 15:29:26,227  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 15:29:26,237  INFO ApiApplication:61 - Started ApiApplication in 2.395 seconds (JVM running for 3.243)
+2021-10-24 15:31:27,082  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 15:31:27,084  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 15:32:32,800  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:32:49,705  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 9904 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 15:32:49,708  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 15:32:50,801  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 15:32:50,916  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1156 ms
+2021-10-24 15:32:51,371  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:32:51,498  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 15:32:51,706  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 15:32:51,717  INFO ApiApplication:61 - Started ApiApplication in 2.45 seconds (JVM running for 3.374)
+2021-10-24 15:33:07,906  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 15:33:07,907  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 15:37:43,994  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:40:07,919  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 15404 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 15:40:07,922  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 15:40:09,066  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 15:40:09,177  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1205 ms
+2021-10-24 15:40:09,641  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:40:09,770  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 15:40:09,984  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 15:40:09,996  INFO ApiApplication:61 - Started ApiApplication in 2.532 seconds (JVM running for 3.486)
+2021-10-24 15:40:20,499  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 15:40:20,501  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 15:40:20,738  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2021-10-24 15:40:20,741  WARN DriverDataSource:70 - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-10-24 15:40:21,344  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-10-24 15:42:28,795  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:42:28,796  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-10-24 15:42:28,851  INFO HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-10-24 15:42:32,553  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 7320 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 15:42:32,556  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 15:42:33,637  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 15:42:33,748  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1139 ms
+2021-10-24 15:42:34,202  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:42:34,329  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 15:42:34,430  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 15:42:34,538  INFO ApiApplication:61 - Started ApiApplication in 2.402 seconds (JVM running for 3.317)
+2021-10-24 15:43:32,910  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 15:43:32,911  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 15:43:33,047  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2021-10-24 15:43:33,049  WARN DriverDataSource:70 - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-10-24 15:43:33,522  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-10-24 15:44:42,258  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:44:42,259  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-10-24 15:44:42,309  INFO HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-10-24 15:44:48,631  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 14340 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 15:44:48,635  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 15:44:49,764  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 15:44:49,881  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1193 ms
+2021-10-24 15:44:50,335  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:44:50,464  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 15:44:50,670  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 15:44:50,681  INFO ApiApplication:61 - Started ApiApplication in 2.46 seconds (JVM running for 3.429)
+2021-10-24 15:45:27,772  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 15:45:27,774  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 15:45:27,865  WARN DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2021-10-24 15:40:25": not a valid representation (error: Failed to parse Date value '2021-10-24 15:40:25': Cannot parse date "2021-10-24 15:40:25": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2021-10-24 15:40:25": not a valid representation (error: Failed to parse Date value '2021-10-24 15:40:25': Cannot parse date "2021-10-24 15:40:25": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))
+ at [Source: (PushbackInputStream); line: 8, column: 19] (through reference chain: com.car.api.entity.CarBean["info"]->com.car.api.entity.Info["inTime"])]
+2021-10-24 15:45:40,138  WARN DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2021-10-24 15:40:25": not a valid representation (error: Failed to parse Date value '2021-10-24 15:40:25': Cannot parse date "2021-10-24 15:40:25": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2021-10-24 15:40:25": not a valid representation (error: Failed to parse Date value '2021-10-24 15:40:25': Cannot parse date "2021-10-24 15:40:25": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))
+ at [Source: (PushbackInputStream); line: 8, column: 19] (through reference chain: com.car.api.entity.CarBean["info"]->com.car.api.entity.Info["inTime"])]
+2021-10-24 15:45:54,537  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2021-10-24 15:45:54,541  WARN DriverDataSource:70 - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-10-24 15:45:55,013  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-10-24 15:46:21,590  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:46:21,591  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-10-24 15:46:21,654  INFO HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-10-24 15:59:19,956  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 12120 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 15:59:19,959  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 15:59:21,044  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 15:59:21,158  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1148 ms
+2021-10-24 15:59:21,605  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 15:59:21,733  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 15:59:21,940  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 15:59:21,951  INFO ApiApplication:61 - Started ApiApplication in 2.418 seconds (JVM running for 3.341)
+2021-10-24 15:59:32,311  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 15:59:32,312  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 15:59:32,428  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2021-10-24 15:59:32,429  WARN DriverDataSource:70 - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-10-24 15:59:32,891  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-10-24 16:03:07,889  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:03:07,890  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-10-24 16:03:07,972  INFO HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-10-24 16:03:13,742  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 7256 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 16:03:13,745  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 16:03:14,882  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 16:03:15,000  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1202 ms
+2021-10-24 16:03:15,528  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:03:15,689  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 16:03:15,812  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 16:03:15,905  INFO ApiApplication:61 - Started ApiApplication in 2.581 seconds (JVM running for 3.539)
+2021-10-24 16:03:20,984  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 16:03:20,985  INFO DispatcherServlet:547 - Completed initialization in 0 ms
+2021-10-24 16:03:21,095  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2021-10-24 16:03:21,097  WARN DriverDataSource:70 - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-10-24 16:03:21,581  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-10-24 16:06:57,870  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:06:57,871  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-10-24 16:06:57,951  INFO HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-10-24 16:10:41,885  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 12904 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 16:10:41,888  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 16:10:42,983  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 16:10:43,094  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1150 ms
+2021-10-24 16:10:43,545  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:10:43,670  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 16:10:43,773  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 16:10:43,859  INFO ApiApplication:61 - Started ApiApplication in 2.389 seconds (JVM running for 3.25)
+2021-10-24 16:14:32,483  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 16:14:32,484  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 16:14:32,591  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2021-10-24 16:14:32,592  WARN DriverDataSource:70 - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-10-24 16:14:33,054  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-10-24 16:20:08,696  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:20:08,696  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-10-24 16:20:08,741  INFO HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-10-24 16:21:29,764  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 15032 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 16:21:29,767  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 16:21:31,024  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 16:21:31,156  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1333 ms
+2021-10-24 16:21:31,633  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:21:31,770  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 16:21:31,985  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 16:21:31,996  INFO ApiApplication:61 - Started ApiApplication in 2.673 seconds (JVM running for 3.624)
+2021-10-24 16:21:50,470  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 16:21:50,471  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 16:21:50,582  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2021-10-24 16:21:50,584  WARN DriverDataSource:70 - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-10-24 16:21:51,044  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-10-24 16:35:54,071  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:35:54,072  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-10-24 16:35:54,118  INFO HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-10-24 16:47:11,303  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 2320 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 16:47:11,307  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 16:47:12,414  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 16:47:12,527  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1169 ms
+2021-10-24 16:47:13,118  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:47:13,250  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 16:47:13,457  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 16:47:13,468  INFO ApiApplication:61 - Started ApiApplication in 2.585 seconds (JVM running for 3.513)
+2021-10-24 16:47:15,390  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:47:35,957  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 12076 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 16:47:35,960  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 16:47:37,065  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 16:47:37,181  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1171 ms
+2021-10-24 16:47:37,640  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:47:37,772  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 16:47:37,968  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 16:47:37,980  INFO ApiApplication:61 - Started ApiApplication in 2.459 seconds (JVM running for 3.368)
+2021-10-24 16:48:13,482  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 16:48:13,483  INFO DispatcherServlet:547 - Completed initialization in 0 ms
+2021-10-24 16:48:13,592  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2021-10-24 16:48:13,595  WARN DriverDataSource:70 - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-10-24 16:48:14,064  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-10-24 16:49:06,565  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:49:06,571  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-10-24 16:49:06,620  INFO HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-10-24 16:49:19,337  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 18144 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 16:49:19,340  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 16:49:20,472  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 16:49:20,589  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1195 ms
+2021-10-24 16:49:21,076  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 16:49:21,210  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 16:49:21,406  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 16:49:21,416  INFO ApiApplication:61 - Started ApiApplication in 2.53 seconds (JVM running for 3.475)
+2021-10-24 16:49:32,311  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 16:49:32,312  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 16:49:32,406  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2021-10-24 16:49:32,408  WARN DriverDataSource:70 - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-10-24 16:49:32,868  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-10-24 16:52:27,303  WARN HikariPool:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m24s344ms951µs689ns).
+2021-10-24 17:32:04,989  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 17:32:04,989  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-10-24 17:32:05,080  INFO HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-10-24 17:32:08,746  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 18860 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 17:32:08,750  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 17:32:09,883  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 17:32:09,997  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1196 ms
+2021-10-24 17:32:10,475  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 17:32:10,604  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 17:32:10,815  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 17:32:10,828  INFO ApiApplication:61 - Started ApiApplication in 2.487 seconds (JVM running for 3.416)
+2021-10-24 17:32:16,918  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 17:32:16,920  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 17:32:17,036  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2021-10-24 17:32:17,038  WARN DriverDataSource:70 - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-10-24 17:32:17,535  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-10-24 17:34:13,920  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 17:34:13,921  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-10-24 17:34:13,983  INFO HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-10-24 17:34:18,322  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 11184 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-24 17:34:18,325  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-24 17:34:19,487  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-24 17:34:19,620  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 1250 ms
+2021-10-24 17:34:20,164  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-24 17:34:20,298  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-24 17:34:20,514  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-24 17:34:20,524  INFO ApiApplication:61 - Started ApiApplication in 2.629 seconds (JVM running for 3.573)
+2021-10-24 17:34:27,518  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-24 17:34:27,519  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-24 17:34:27,615  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2021-10-24 17:34:27,616  WARN DriverDataSource:70 - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-10-24 17:34:28,064  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-10-24 18:11:47,598  WARN HikariPool:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s108ms608µs267ns).
+2021-10-24 18:11:49,662  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-24 18:11:49,667  INFO HikariDataSource:350 - HikariPool-1 - Shutdown initiated...

@@ -1,0 +1,12 @@
+2021-10-22 17:04:13,840  INFO ApiApplication:55 - Starting ApiApplication using Java 1.8.0_271 on SD-20191015WCAA with PID 2556 (I:\idea_workspace\carSystem\target\classes started by Administrator in I:\idea_workspace\carSystem)
+2021-10-22 17:04:13,852  INFO ApiApplication:660 - No active profile set, falling back to default profiles: default
+2021-10-22 17:04:16,171  INFO TomcatWebServer:108 - Tomcat initialized with port(s): 8848 (http)
+2021-10-22 17:04:16,291  INFO ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 2351 ms
+2021-10-22 17:04:17,042  INFO ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-22 17:04:17,219  WARN ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-10-22 17:04:17,472  INFO TomcatWebServer:220 - Tomcat started on port(s): 8848 (http) with context path ''
+2021-10-22 17:04:17,482  INFO ApiApplication:61 - Started ApiApplication in 4.198 seconds (JVM running for 7.551)
+2021-10-22 17:17:56,860  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-22 17:17:56,861  INFO DispatcherServlet:547 - Completed initialization in 1 ms
+2021-10-22 17:17:56,889  WARN DefaultHandlerExceptionResolver:207 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-10-22 17:24:23,251  INFO ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
