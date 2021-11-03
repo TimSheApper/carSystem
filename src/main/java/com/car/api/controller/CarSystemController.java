@@ -4,6 +4,8 @@ import com.car.api.entity.CarBean;
 import com.car.api.entity.ResultBean;
 import com.car.api.service.CarSystemService;
 import com.car.api.util.RetResponse;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,30 +16,39 @@ public class CarSystemController {
     @Autowired
     private CarSystemService carSystemService;
 
-    @PostMapping("/vehicleEntry")
-    public ResultBean vehicleEntry(@RequestBody CarBean car){
-        System.out.println(car);
+    private static final Logger log = LoggerFactory.getLogger(CarSystemController.class);
+
+    @PostMapping("/receiver")
+    public ResultBean UnifiedReceiver(@RequestBody CarBean car){
         try {
-            carSystemService.saveVehicleEntryInfo(car.getInfo());
+            log.info("接收信息："+car.toString());
+            switch(car.getCommand()){
+                case "cmdInParking" :
+                    vehicleEntry(car);
+                    break;
+                case "cmdPreOutParking" :
+                    return openGate(car);
+                case "cmdOutParking" :
+                    vehicleExit(car);
+                    break;
+                default :
+
+            }
+            return RetResponse.makeOKRsp();
         }catch (Exception e){
             return RetResponse.makeErrRsp();
         }
-        return RetResponse.makeOKRsp();
     }
 
-    @PostMapping("/vehicleExit")
-    public ResultBean vehicleExit(@RequestBody CarBean car){
-        System.out.println(car);
-        try {
-            carSystemService.saveVehicleExitInfo(car.getInfo());
-        }catch (Exception e){
-            return RetResponse.makeErrRsp();
-        }
-        return RetResponse.makeOKRsp();
+    public void vehicleEntry(CarBean car){
+        carSystemService.saveVehicleEntryInfo(car.getInfo());
     }
 
-    @PostMapping("/openGate")
-    public ResultBean openGate(@RequestBody CarBean car){
+    public void vehicleExit(CarBean car){
+        carSystemService.saveVehicleExitInfo(car.getInfo());
+    }
+
+    public ResultBean openGate(CarBean car){
         return RetResponse.makeOpenRsp();
     }
 }

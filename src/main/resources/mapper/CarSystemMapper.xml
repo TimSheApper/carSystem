@@ -5,11 +5,11 @@
 <mapper namespace="com.car.api.dao.CarSystemMapper">
 
     <update id="saveVehicleEntryInfo" parameterType="com.car.api.entity.Info">
-        UPDATE WM_GATE_ARRAY WGA SET WGA.INCHANNEL = #{inChannel,jdbcType=VARCHAR},WGA.INTIME = TO_DATE(#{inTime,jdbcType=VARCHAR},'YYYY-MM-DD HH24:MI:SS'),WGA.STATUS=7 WHERE WGA.CARDNO = #{cardNo,jdbcType=VARCHAR} AND WGA.CAR_NO = #{plateNo,jdbcType=VARCHAR}
+        UPDATE WM_GATE_ARRAY WGA SET WGA.INCHANNEL = #{inChannel,jdbcType=VARCHAR},WGA.INTIME = TO_DATE(#{inTime,jdbcType=VARCHAR},'YYYY-MM-DD HH24:MI:SS'),WGA.STATUS=7 WHERE WGA.ASN_CODE = #{cardNo,jdbcType=VARCHAR} AND WGA.CAR_NO = #{plateNo,jdbcType=VARCHAR}
     </update>
 
     <update id="saveVehicleExitInfo" parameterType="com.car.api.entity.Info">
-        UPDATE WM_GATE_ARRAY WGA SET WGA.OUTCHANNEL = #{outChannel,jdbcType=VARCHAR},WGA.OUTTIME = TO_DATE(#{outTime,jdbcType=VARCHAR},'YYYY-MM-DD HH24:MI:SS') WHERE WGA.CARDNO = #{cardNo,jdbcType=VARCHAR} AND WGA.CAR_NO = #{plateNo,jdbcType=VARCHAR}
+        UPDATE WM_GATE_ARRAY WGA SET WGA.OUTCHANNEL = #{outChannel,jdbcType=VARCHAR},WGA.OUTTIME = TO_DATE(#{outTime,jdbcType=VARCHAR},'YYYY-MM-DD HH24:MI:SS') WHERE WGA.ASN_CODE = #{cardNo,jdbcType=VARCHAR} AND WGA.CAR_NO = #{plateNo,jdbcType=VARCHAR}
     </update>
 
 </mapper>
